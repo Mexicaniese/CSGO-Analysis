@@ -44,10 +44,9 @@
         margin: $spacing-xs 0 0;
       }
       img {
-        top: 100%;
-        -ms-transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -ms-transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
       }
     } // end .p-wrap
 
