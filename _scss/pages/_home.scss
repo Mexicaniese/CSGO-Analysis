@@ -13,12 +13,12 @@
       padding: $spacing-ml $spacing-m;
       background: $main-color; 
       transition: all .15s ease-in;
-      text-align: center;
       
       display: flex;
-      justify-content: center;
+      // justify-content: center;
       align-content: center;
-      flex-direction: column; /* column | row */
+      align-items: center;
+      flex-direction: row; /* column | row */
       
       &:active { 
         background: darken($main-color, 3%);
