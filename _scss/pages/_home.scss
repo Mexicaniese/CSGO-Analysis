@@ -33,33 +33,20 @@
         padding: $spacing-m $spacing-m;
       }
       p {
-        display: inline;
+        display: inline-block;
+        vertical-align:middle;
         margin: $spacing-xs 0 0;
-        position: absolute;
         top: 50%;
         -ms-transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
       }
       img {
-        // -ms-transform: translateY(50%);
-        // -webkit-transform: translateY(50%);
-        // transform: translateY(50%);
-        
-        // position:absolute;
-        // top:50%;
         min-height:100%;
-        // display:block;
-        // left:50%;
-        // -webkit-transform: translate(-50%, -50%);
-        // min-width:100%;
       }
       time {
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
+        display:inline-block; 
+        vertical-align:middle;
       }
     } // end .p-wrap
 
