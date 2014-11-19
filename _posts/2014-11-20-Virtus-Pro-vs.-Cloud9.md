@@ -2,8 +2,8 @@
 layout: post
 title:  "NiP vs. iBuyPower"
 date:   2014-01-30 16:57:51
-team2: /assets/img/Cloud9.svg
-team1: /assets/img/virtus-pro.svg
+team2: /assets/img/cloud9.svg
+team1: /assets/img/virtuspro.svg
 ---
 
 Welcome to *Hikari*, a responsive, fluid and minimalist Jekyll theme for developers. As a web designer keen on learning how to develop my own stuff, reading developers' blog has always been the way to learn from the best. So I thought it was time to give back! 
