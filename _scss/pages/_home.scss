@@ -34,6 +34,8 @@
       p {
         display: inline;
         margin: $spacing-xs 0 0;
+        top: 50%;
+    	  transform: translateY(-50%);
       }
     } // end .p-wrap
 
@@ -43,16 +45,13 @@
       @media (max-width: 942px) {
         display: block;
       }
+      top: 50%;
+    	transform: translateY(-50%);
     }
 
     a {
       color: white; 
       text-decoration: none;
-    }
-    
-    .children{
-      top: 50%;
-    	transform: translateY(-50%);
     }
 
   } // end li
