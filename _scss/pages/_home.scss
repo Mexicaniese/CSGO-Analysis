@@ -13,6 +13,14 @@
       padding: $spacing-ml $spacing-m;
       background: $main-color; 
       transition: all .15s ease-in;
+      
+      text-align: center;
+      position: relative;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      
       &:active { 
         background: darken($main-color, 3%);
       }
@@ -34,8 +42,6 @@
       p {
         display: inline;
         margin: $spacing-xs 0 0;
-        top: 50%;
-    	  transform: translateY(-50%);
       }
     } // end .p-wrap
 
@@ -45,8 +51,6 @@
       @media (max-width: 942px) {
         display: block;
       }
-      top: 50%;
-    	transform: translateY(-50%);
     }
 
     a {
