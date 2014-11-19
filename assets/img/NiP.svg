@@ -1,5 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
-<svg>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg">
 <path style="fill:#0d0d0d; stroke:none;" d="M0 0L0 788L1600 788L1600 0L0 0z"/>
 <path style="fill:#352d23; stroke:none;" d="M200 49C205.469 51.295 213.099 50 219 50C213.531 47.705 205.901 49 200 49M180 50L180 52L183 52L183 50L180 50z"/>
 <path style="fill:#3f3529; stroke:none;" d="M183.333 50.6667C183.278 50.7224 183.222 51.7778 183.667 51.3333C183.722 51.2779 183.778 50.2222 183.333 50.6667z"/>
