@@ -2,7 +2,7 @@
 layout: post
 title:  "NiP vs. iBuyPower"
 date:   2014-01-27 16:57:51
-team2: /assets/img/NiP.svg
+team2: /assets/img/nip.svg
 team1: /assets/img/ibuypower.svg
 ---
 
