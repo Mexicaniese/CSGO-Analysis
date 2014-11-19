@@ -35,6 +35,11 @@
       p {
         display: inline;
         margin: $spacing-xs 0 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
       }
       img {
         // -ms-transform: translateY(50%);
@@ -49,12 +54,12 @@
         // -webkit-transform: translate(-50%, -50%);
         // min-width:100%;
       }
-      * {
-          position: absolute;
-          top: 50%;
-          -ms-transform: translateY(-50%);
-          -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+      time {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
       }
     } // end .p-wrap
 
